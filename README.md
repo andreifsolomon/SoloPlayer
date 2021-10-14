@@ -1,0 +1,2 @@
+# SoloPlayer
+Angular Music Player
