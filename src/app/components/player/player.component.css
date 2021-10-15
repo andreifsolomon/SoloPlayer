@@ -1,0 +1,140 @@
+.container {
+    width: 60%;
+}
+
+.media-header {
+    border: 1px solid green;
+    height: 100px;
+}
+
+.content {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    /* flex-flow: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.artist-info {
+    border: 1px solid rgb(255, 34, 170);
+    width: 50%;
+    min-width: 200px;
+    height: 200px;
+}
+
+.track-details {
+    border: 1px solid salmon;
+    width: 50%;
+    min-width: 200px;
+    height: 40px;
+}
+
+.track-area-vertical-layout {
+    border: 1px solid salmon;
+    width: 50%;
+    min-width: 200px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.track-area {
+    border: 1px solid salmon;
+    width: 50%;
+    min-width: 200px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.elapsed-time, 
+.remaining-time {
+    border: 1px solid greenyellow;
+    width: 40px;
+}
+
+.track {
+    height: 5px;
+    border: 1px solid red;
+    /* background-color: black; */
+    border-radius: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.track-played-area {
+    background-color: black;
+    width: 30px;
+    height: 100%;
+}
+
+.track-unplayed-area {
+    background-color: turquoise;
+    height: 100%;
+    width: 100%;
+}
+
+.track-current-position {
+    border: 1px solid blue;
+    height:9px;
+    width:9px;
+    top: -3px;
+    left: -3px;
+    position: relative;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+
+.media-footer {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.shuffle-button,
+.repeat-button {
+    border: 1px solid silver;
+    height: 40px;
+    width: 40px;
+
+}
+
+.back-button,
+.forward-button {
+    border: 1px solid silver;
+    height: 60px;
+    width: 60px;
+
+}
+
+.play-button {
+    border: 1px solid silver;
+    height: 80px;
+    width: 80px;
+}
+
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-40 { font-size: 40px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-60 { font-size: 60px; }
+.material-icons.md-80 { font-size: 80px; }
+
+.circle-button {
+    border-radius: 50%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    outline: 1px solid black;
+    background-color: unset;
+    height: 100%;
+    weight: 100%;
+}
